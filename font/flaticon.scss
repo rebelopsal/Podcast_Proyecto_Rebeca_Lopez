@@ -1,0 +1,53 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?fe8416f40bfbf0a909d289678d88f83a") format("truetype"),
+url("./flaticon.woff?fe8416f40bfbf0a909d289678d88f83a") format("woff"),
+url("./flaticon.woff2?fe8416f40bfbf0a909d289678d88f83a") format("woff2"),
+url("./flaticon.eot?fe8416f40bfbf0a909d289678d88f83a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fe8416f40bfbf0a909d289678d88f83a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "facebook": "\f101",
+    "lista": "\f102",
+    "logotipo-de-instagram": "\f103",
+    "logotipo-de-la-red-social-twitter": "\f104",
+    "os-x": "\f105",
+    "spotify": "\f106",
+    "telegrama": "\f107",
+);
+
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-lista:before {
+    content: map-get($flaticon-map, "lista");
+}
+.flaticon-logotipo-de-instagram:before {
+    content: map-get($flaticon-map, "logotipo-de-instagram");
+}
+.flaticon-logotipo-de-la-red-social-twitter:before {
+    content: map-get($flaticon-map, "logotipo-de-la-red-social-twitter");
+}
+.flaticon-os-x:before {
+    content: map-get($flaticon-map, "os-x");
+}
+.flaticon-spotify:before {
+    content: map-get($flaticon-map, "spotify");
+}
+.flaticon-telegrama:before {
+    content: map-get($flaticon-map, "telegrama");
+}

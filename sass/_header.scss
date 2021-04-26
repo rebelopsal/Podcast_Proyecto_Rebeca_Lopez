@@ -1,0 +1,121 @@
+@import "./variables";
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top:0;
+    margin: auto 5%;
+    width: 90%;
+    z-index: 3;
+}
+  
+.header ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $color-segundario2;
+}
+  
+.header li a {
+    display: block;
+    padding: 20px 0 20px 20px;
+}
+.header li a:hover,
+.header .menu-btn:hover {
+    color: $color-primario2;
+}
+.header .logo {
+    float: left;
+    padding-top: 16px;
+}
+  .logo{
+    width: 30px;
+  }
+.header a{
+    color:$color-primario;
+
+}
+  
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+    
+}
+
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 30px 20px;
+    padding-right: 0;
+    position: relative;
+    user-select: none;
+}
+  
+.header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+  
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+  
+.header .menu-icon .navicon:before {
+    top: 5px;
+}
+  
+.header .menu-icon .navicon:after {
+    top: -5px;
+}
+.header .menu-btn {
+    display: none;
+}
+  
+.header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+}
+  
+.header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+.menu li a:hover{
+    text-decoration: line-through;
+    color: $color-segundario3;
+}
+  
+@media (min-width: 1100px) {
+    header{
+      padding-bottom: 40px;
+    }
+    .header li {
+      float: left;
+  
+    }
+    .header li a {
+      padding: 20px 0 20px 20px;
+      color: $color-primario3;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+      background-color: $color-primario;
+
+    }
+    .header .menu-icon {
+      display: none;
+    }
+}

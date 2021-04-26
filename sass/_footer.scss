@@ -1,0 +1,352 @@
+@import "./variables";
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.footer p {
+    font-size: 18px;
+    color: $color-primario3;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+}
+.footer-iconos{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 30px;
+    margin: auto;
+    margin-left: 20px;
+    width: 100%;
+    color: $color-terciario;
+
+}
+
+//@media de footer
+@media (min-width:768px){
+    .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        width: 100%;
+        height: 50px;
+    }
+    .footer-p{
+        text-align: left;
+        font-size: 18px;
+        color: $color-primario3;
+        margin: auto;
+        letter-spacing: 0;
+    }
+    .footer-iconos{
+        color: $color-terciario;
+        display: flex;
+        justify-content: flex-end;
+        letter-spacing: 30px;
+        margin: auto;
+        margin-left: 20px;
+        width: 50%;
+    }
+}
+
+
+
+//cuerpo de la pagina
+@media (min-width: 520px){
+    .punto{
+        color: $color-primario2;
+    }
+    .titulo p{
+        width: 628px;
+        font-size: 16px;
+    }
+    .episodios{
+        font-size: 48px;
+    }
+    .text h2{
+        font-size: 48px;
+    }
+    .text-p{
+        font-size: 16px;
+    }
+    .invitados{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .titulo-img{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 48px;
+        color: $color-primario3;
+        margin: auto;
+        letter-spacing: 5px;
+        margin-left: 15px;
+    }
+    .imagenes-in{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .imagenes-in img{
+        width: 50%;
+    }
+    .titulo-topi{
+        margin-top: 30px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .topi-titulo{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 48px;
+        color: $color-primario3;
+        margin: auto;
+        letter-spacing: 5px;
+        margin-left: 15px;
+    }
+    .tema-icon {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        width: 100%;
+        padding: 20px;
+    }
+    .tema-icon img {
+        width: 40%;
+    }
+    .tema-icon h4{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 24px;
+        color: $color-primario3;
+    }
+    .tema-icon div{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+}
+@media (min-width: 668px) {
+    .titulo{
+        background-position: center;
+    }
+    .text {
+        width: 48%;
+        float: right;
+    }
+    .text h2 p {
+        margin-top: -30px;
+        width: 50%;
+    }
+    .movil-img{
+        width:40%;
+        float: left;
+
+    }
+    .invitados{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    .titulo-img{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 48px;
+        color: $color-primario3;
+        margin: auto;
+        letter-spacing: 5px;
+        margin-left: 15px;
+    }
+    .imagenes-in{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .invitados img {
+        width: 50%;
+    }
+    .titulo-topi{
+        margin-top: 30px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .topi-titulo{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 48px;
+        color: $color-primario3;
+        margin: auto;
+        letter-spacing: 0;
+        margin-left: 15px;
+    }
+    .tema-icon{
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        width: 100%;
+        padding: 20px;
+    }
+    .tema-icon img{
+        width: 40%;
+    }
+    .tema-icon h4{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: $color-primario3;
+    }
+    .tema-icon div {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width: 768px){
+    .text{
+        float: right;
+        margin-top: 50px;
+        width: 50%;
+    }
+    .text h2{
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: $color-primario3;
+        font-size: 48px;
+        margin-left: 10px;
+        letter-spacing: 5px;
+    }
+    .text-p{
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 16px;
+        color: $color-primario3;
+        margin-left: 10px;
+        text-align: left;
+        padding: 5px;
+        width: 464px;
+    }
+    .nosotros{
+        margin-top: -100px;
+        float: left;
+    }
+    .invitados{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        width: 100%;
+        margin: auto;
+    }
+    .titulo-img{
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: $color-primario3;
+        font-size: 48px;
+        margin: auto;
+        letter-spacing: 5px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .imagenes-in{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .imagenes-in img{
+        width: 30%;
+    }
+    .titulo-topi{
+        margin-top: 50px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .topi-titulo{
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: $color-primario3;
+        font-size: 48px;
+        margin: auto;
+        letter-spacing: 0;
+        margin-left: 75px;
+    }
+    .tema-icon{
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .tema-icon{
+        width: 50%;
+    }
+    .tema-icon h4{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: $color-primario3;
+        font-size: 24px;
+    }
+    .tema-icon div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+}
+@media (min-width:1100){
+    .nosotros{
+        margin-top:-100px;
+    }
+    .text{
+        float: left;
+        margin-top: 50px;
+        width: 50%;
+    }
+    .text h2{
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: $color-primario3;
+        margin-left: 10px;
+        letter-spacing: 0;
+    }
+    .text p{
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 18px;
+        color: $color-primario3;
+        margin-left: 10px;
+        text-align: left;
+        padding: 5px;
+    }
+
+}

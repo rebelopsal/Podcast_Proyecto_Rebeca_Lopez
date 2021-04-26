@@ -1,0 +1,26 @@
+@import "./variables";
+
+.invitados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+.titulo-img {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: $color-primario3;
+    font-weight: bold;
+    margin: auto;
+    margin-left: 15px;
+}
+.imagenes-in{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.imagenes-in img{
+    max-width: 100%;
+}

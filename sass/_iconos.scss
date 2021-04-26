@@ -1,0 +1,39 @@
+@import "./variables";
+
+
+.titulo-topi  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.topi-titulo{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+    color: $color-primario3;
+    margin: auto;
+    margin-left: 15px;
+}
+.titulo-topi h4{
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: $color-primario3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.tema-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+.tema-icon img{
+    margin-left: 40%;
+}

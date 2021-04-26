@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?fe8416f40bfbf0a909d289678d88f83a") format("truetype"), url("./flaticon.woff?fe8416f40bfbf0a909d289678d88f83a") format("woff"), url("./flaticon.woff2?fe8416f40bfbf0a909d289678d88f83a") format("woff2"), url("./flaticon.eot?fe8416f40bfbf0a909d289678d88f83a#iefix") format("embedded-opentype"), url("./flaticon.svg?fe8416f40bfbf0a909d289678d88f83a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-facebook:before {
+  content: "";
+}
+
+.flaticon-lista:before {
+  content: "";
+}
+
+.flaticon-logotipo-de-instagram:before {
+  content: "";
+}
+
+.flaticon-logotipo-de-la-red-social-twitter:before {
+  content: "";
+}
+
+.flaticon-os-x:before {
+  content: "";
+}
+
+.flaticon-spotify:before {
+  content: "";
+}
+
+.flaticon-telegrama:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */

@@ -1,0 +1,24 @@
+.rectangulo{
+    width: 100%;
+    top: 0;
+    padding-top: 12%;
+    padding-bottom: 15%;
+    clip-path: polygon(0% 5%, 100% 0%, 100%95%, 0% 100%);
+    overflow: hidden;
+    background: radial-gradient(circle, rgba(0,0,163,1) 22%, rgba(0,0,191,1) 50%, rgba(0,0,255,1) 100%);
+}
+.episodio h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 46px;
+    margin-bottom: 67px 147px 21px 16px;
+    line-height: 1;
+    margin: 2%;
+    margin-left: 10%;
+    color: $color-primario;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5%;
+}
